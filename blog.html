@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./blogstyles.css">
+    <title>TradeSpectrum Blog - Latest Financial Blogs on Trending Topics</title>
+</head>
+<body>
+    
+    <a href="./index.html" class="logo">
+        <img src="./assets/images/logo.svg" width="80" height="80"  alt="TradeSpectrum logo">
+        <h1 color="green">TradeSpectrum</h1>
+    </a>
+    <h1 class="info">COMPANY PROFILES</h1>
+
+    <div class="search-container">
+        <input type="text" id="searchInput" class="search-input" placeholder="Codename of Stock eg- NASDAQ:AAPL">
+        <button id="searchButton" class="search-button">Search</button>
+    </div>
+
+    
+    <div class="searching">
+        <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a></div>
+            <script id="changing" type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-profile.js" async>
+            {
+                "width": "400px",
+                "height": "600px",
+                "colorTheme": "light",
+                "isTransparent": false,
+                "symbol": "NASDAQ:AAPL",
+                "locale": "in"
+            }
+            </script>
+        </div>
+    </div>
+    <script>
+        document.getElementById("searchButton").addEventListener("click", function() {
+            var searchString = document.getElementById("searchInput").value;
+            var scriptElement = document.getElementById("changing");
+            
+            // Access the script's "symbol" attribute and change it
+            scriptElement.setAttribute("data-symbol", searchString);
+        });
+    </script>
+    <h2 class="info2">USA STOCK MARKET</h2>
+
+    <div class="x">
+        <table>
+
+            <div class="main_container">
+                <tr>
+                    <td>
+                        <div class="card_container">
+                            <div class="tradingview-widget-container">
+                                <div class="tradingview-widget-container__widget"></div>
+                                <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a></div>
+                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-profile.js" async>
+                                {
+                                    "width": "100%",
+                                    "height": "100%",
+                                    "colorTheme": "light",
+                                    "isTransparent": false,
+                                    "symbol": "NASDAQ:AAPL",
+                                    "locale": "in"
+                                }
+                                </script>
+                            </div>
+                        </div>
+                    </td>
+        
+                    <td>
+                        <div class="card_container">
+                            <div class="tradingview-widget-container">
+                                <div class="tradingview-widget-container__widget"></div>
+                                <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a></div>
+                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-profile.js" async>
+                                {
+                                    "width": "100%",
+                                    "height": "100%",
+                                    "colorTheme": "light",
+                                    "isTransparent": false,
+                                    "symbol": "NASDAQ:GOOG",
+                                    "locale": "in"
+                                }
+                                </script>
+                            </div>
+                        </div>
+                    </td>
+          
+        
+                    <td>
+                        <div class="card_container">
+                            <div class="tradingview-widget-container">
+                                <div class="tradingview-widget-container__widget"></div>
+                                <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a></div>
+                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-profile.js" async>
+                                {
+                                    "width": "100%",
+                                    "height": "100%",
+                                    "colorTheme": "light",
+                                    "isTransparent": false,
+                                    "symbol": "NASDAQ:TSLA",
+                                    "locale": "in"
+                                }
+                                </script>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <div class="card_container">
+                            <div class="tradingview-widget-container">
+                                <div class="tradingview-widget-container__widget"></div>
+                                <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a></div>
+                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-profile.js" async>
+                                {
+                                    "width": "100%",
+                                    "height": "100%",
+                                    "colorTheme": "light",
+                                    "isTransparent": false,
+                                    "symbol": "NASDAQ:PYPL",
+                                    "locale": "in"
+                                }
+                                </script>
+                            </div>
+                        </div>
+                    </td>
+        
+                    <td>
+                        <div class="card_container">
+                            <div class="tradingview-widget-container">
+                                <div class="tradingview-widget-container__widget"></div>
+                                <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a></div>
+                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-profile.js" async>
+                                {
+                                    "width": "100%",
+                                    "height": "100%",
+                                    "colorTheme": "light",
+                                    "isTransparent": false,
+                                    "symbol": "NASDAQ:INTC",
+                                    "locale": "in"
+                                }
+                                </script>
+                            </div>
+                        </div>
+                    </td>
+          
+        
+                    <td>
+                        <div class="card_container">
+                            <div class="tradingview-widget-container">
+                                <div class="tradingview-widget-container__widget"></div>
+                                <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a></div>
+                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-profile.js" async>
+                                {
+                                    "width": "100%",
+                                    "height": "100%",
+                                    "colorTheme": "light",
+                                    "isTransparent": false,
+                                    "symbol": "NASDAQ:QCOM",
+                                    "locale": "in"
+                                }
+                                </script>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <div class="card_container">
+                            <div class="tradingview-widget-container">
+                                <div class="tradingview-widget-container__widget"></div>
+                                <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a></div>
+                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-profile.js" async>
+                                {
+                                    "width": "100%",
+                                    "height": "100%",
+                                    "colorTheme": "light",
+                                    "isTransparent": false,
+                                    "symbol": "NASDAQ:NVDA",
+                                    "locale": "in"
+                                }
+                                </script>
+                            </div>
+                        </div>
+                    </td>
+        
+                    <td>
+                        <div class="card_container">
+                            <div class="tradingview-widget-container">
+                                <div class="tradingview-widget-container__widget"></div>
+                                <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a></div>
+                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-profile.js" async>
+                                {
+                                    "width": "100%",
+                                    "height": "100%",
+                                    "colorTheme": "light",
+                                    "isTransparent": false,
+                                    "symbol": "NASDAQ:AMZN",
+                                    "locale": "in"
+                                }
+                                </script>
+                            </div>
+                        </div>
+                    </td>
+          
+        
+                    <td>
+                        <div class="card_container">
+                            <div class="tradingview-widget-container">
+                                <div class="tradingview-widget-container__widget"></div>
+                                <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a></div>
+                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-profile.js" async>
+                                {
+                                    "width": "100%",
+                                    "height": "100%",
+                                    "colorTheme": "light",
+                                    "isTransparent": false,
+                                    "symbol": "NASDAQ:NFLX",
+                                    "locale": "in"
+                                }
+                                </script>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </div>
+            
+        </table>
+
+    </div>
+
+
+    <h2 class="info2">INDIAN STOCK MARKET</h2>
+    <div class="x">
+        <table>
+            <div class="main_container">
+                <tr>
+                    <td>
+                        <div class="card_container">
+                            <div class="tradingview-widget-container">
+                                <div class="tradingview-widget-container__widget"></div>
+                                <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a></div>
+                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-profile.js" async>
+                                {
+                                    "width": "100%",
+                                    "height": "100%",
+                                    "colorTheme": "light",
+                                    "isTransparent": false,
+                                    "symbol": "NSE:HDFCBANK",
+                                    "locale": "in"
+                                }
+                                </script>
+                            </div>
+                        </div>
+                    </td>
+        
+                    <td>
+                        <div class="card_container">
+                            <div class="tradingview-widget-container">
+                                <div class="tradingview-widget-container__widget"></div>
+                                <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a></div>
+                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-profile.js" async>
+                                {
+                                    "width": "100%",
+                                    "height": "100%",
+                                    "colorTheme": "light",
+                                    "isTransparent": false,
+                                    "symbol": "NSE:RELIANCE",
+                                    "locale": "in"
+                                }
+                                </script>
+                            </div>
+                        </div>
+                    </td>
+          
+        
+                    <td>
+                        <div class="card_container">
+                            <div class="tradingview-widget-container">
+                                <div class="tradingview-widget-container__widget"></div>
+                                <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a></div>
+                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-profile.js" async>
+                                {
+                                    "width": "100%",
+                                    "height": "100%",
+                                    "colorTheme": "light",
+                                    "isTransparent": false,
+                                    "symbol": "NSE:ICICIBANK",
+                                    "locale": "in"
+                                }
+                                </script>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <div class="card_container">
+                            <div class="tradingview-widget-container">
+                                <div class="tradingview-widget-container__widget"></div>
+                                <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a></div>
+                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-profile.js" async>
+                                {
+                                    "width": "100%",
+                                    "height": "100%",
+                                    "colorTheme": "light",
+                                    "isTransparent": false,
+                                    "symbol": "NSE:SBIN",
+                                    "locale": "in"
+                                }
+                                </script>
+                            </div>
+                        </div>
+                    </td>
+        
+                    <td>
+                        <div class="card_container">
+                            <div class="tradingview-widget-container">
+                                <div class="tradingview-widget-container__widget"></div>
+                                <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a></div>
+                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-profile.js" async>
+                                {
+                                    "width": "100%",
+                                    "height": "100%",
+                                    "colorTheme": "light",
+                                    "isTransparent": false,
+                                    "symbol": "NSE:AXISBANK",
+                                    "locale": "in"
+                                }
+                                </script>
+                            </div>
+                        </div>
+                    </td>
+          
+        
+                    <td>
+                        <div class="card_container">
+                            <div class="tradingview-widget-container">
+                                <div class="tradingview-widget-container__widget"></div>
+                                <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a></div>
+                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-profile.js" async>
+                                {
+                                    "width": "100%",
+                                    "height": "100%",
+                                    "colorTheme": "light",
+                                    "isTransparent": false,
+                                    "symbol": "NSE:TATAMOTORS",
+                                    "locale": "in"
+                                }
+                                </script>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <div class="card_container">
+                            <div class="tradingview-widget-container">
+                                <div class="tradingview-widget-container__widget"></div>
+                                <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a></div>
+                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-profile.js" async>
+                                {
+                                    "width": "100%",
+                                    "height": "100%",
+                                    "colorTheme": "light",
+                                    "isTransparent": false,
+                                    "symbol": "NSE:INFY",
+                                    "locale": "in"
+                                }
+                                </script>
+                            </div>
+                        </div>
+                    </td>
+        
+                    <td>
+                        <div class="card_container">
+                            <div class="tradingview-widget-container">
+                                <div class="tradingview-widget-container__widget"></div>
+                                <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a></div>
+                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-profile.js" async>
+                                {
+                                    "width": "100%",
+                                    "height": "100%",
+                                    "colorTheme": "light",
+                                    "isTransparent": false,
+                                    "symbol": "NSE:BAJFINANCE",
+                                    "locale": "in"
+                                }
+                                </script>
+                            </div>
+                        </div>
+                    </td>
+          
+        
+                    <td>
+                        <div class="card_container">
+                            <div class="tradingview-widget-container">
+                                <div class="tradingview-widget-container__widget"></div>
+                                <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a></div>
+                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-profile.js" async>
+                                {
+                                    "width": "100%",
+                                    "height": "100%",
+                                    "colorTheme": "light",
+                                    "isTransparent": false,
+                                    "symbol": "NSE:KOTAKBANK",
+                                    "locale": "in"
+                                }
+                                </script>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </div>
+            
+        </table>
+
+    </div>
+
+    <div>
+        <h3 class="g">
+        Charts and financial information provided by TradingView, a popular charting &amp; trading platform.
+        Check out even more <a href="https://www.tradingview.com/features/" target="_blank" rel="noopener nofollow nocaes" class="y">advanced features</a>
+        or grab <a href="https://www.tradingview.com/widget/" target="_blank" rel="noopener nofollow nocaes" class="y">charts for your website</a>.
+        </h3>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <img src="./assets/images/logo.svg" width="50" height="50" alt="TradeSpectrum logo">
+                        TradeSpectrum
+                    </a>
+
+                    <h2 class="footer-title">Let's talk! 🤙</h2>
+
+                    <a href="tel: +12 345 678 9101" class="footer-contact-link">+12 345 678 9101</a>
+                    <a href="hello.TradeSpectrum@gmail.com" class="footer-contact-link">hello.TradeSpectrum@gmail.com</a>
+
+                    <address class="footer-contact-link">
+                        Cecilia Chapman 711-2880 Nulla St. Mankato Mississippi 96522
+                    </address>
+
+                </div>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Products</p>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Spot</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Inverse Perpetual</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">USDT Perpetual</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Exchange</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Launchpad</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Binance Pay</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Services</p>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Buy Crypto</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Markets</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Tranding Fee</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Affiliate Program</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Referral Program</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">API</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Support</p>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Bybit Learn</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Help Center</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">User Feedback</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Submit a request</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">API Documentation</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Trading Rules</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">About Us</p>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">About Bybit</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Authenticity Check</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Careers</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Business Contacts</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Blog</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+
+                <p class="copyright">
+                    &copy; 2023 TradeSpectrum All Rights Reserved by <a href="https://www.linkedin.com/in/raghav-bansal-b97b60236/" class="copyright-link">Raghav Bansal</a>
+                </p>
+
+                <ul class="social-list">
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>
