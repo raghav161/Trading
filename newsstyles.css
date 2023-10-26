@@ -11,6 +11,7 @@ body{
     
 }
 .logo{
+    margin: 20px;
     color: white;
     font-size: 1.5rem;
     display: flex;
@@ -32,6 +33,7 @@ a{
     text-align: center;
     color: white;
     padding-top: 4%;
+    font-size: 50px;
 }
 
 .g{
@@ -102,5 +104,13 @@ a{
   .copyright-link{
     display: inline-block;
     color: rgb(55, 114, 255);
+  }
+
+  .rowi{
+    padding: 50px;
+  }
+
+  .distance{
+    padding: 40px;
   }
   
