@@ -41,9 +41,9 @@
         document.getElementById("searchButton").addEventListener("click", function() {
             var searchString = document.getElementById("searchInput").value;
             var scriptElement = document.getElementById("changing");
-            
-            // Access the script's "symbol" attribute and change it
-            scriptElement.setAttribute("data-symbol", searchString);
+            var currentSrc = scriptElement.getAttribute("src");
+            var updatedSrc = currentSrc.replace(/symbol=[^&]*/, "symbol=" + encodeURIComponent(searchString));
+            scriptElement.setAttribute("src", updatedSrc);
         });
     </script>
     <h2 class="info2">USA STOCK MARKET</h2>
