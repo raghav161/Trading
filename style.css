@@ -99,7 +99,7 @@ html{
 body{
   background-color: var(--eerie-black-2);
   color: var(--cadet-blue-crayola);
-  
+  font-size: 100%;
 }
 
 
