@@ -31,6 +31,7 @@
 --fs-5: 1.8rem;
 --fs-6: 1.5rem;
 --fs-7: 1.4rem;
+
 --fs-8: 1.2rem;
 
 --fw-500: 500;
@@ -99,7 +100,7 @@ html{
 body{
   background-color: var(--eerie-black-2);
   color: var(--cadet-blue-crayola);
-  font-size: 100%;
+  
 }
 
 
